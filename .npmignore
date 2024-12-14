@@ -1,0 +1,6 @@
+src/
+tests/
+tsconfig.json
+.eslintrc
+.prettierignore
+node_modules/

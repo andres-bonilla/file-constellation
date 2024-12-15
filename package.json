@@ -12,30 +12,26 @@
     "start": "node dist/src/index.js",
     "watch": "tsc --watch",
     "build": "tsc",
-    "test": "mocha --no-warnings --require ts-node/register 'tests/**/*.spec.ts'",
+    "test": "vitest",
     "lint": "eslint '**/*.{js,ts}'",
     "format": "prettier --write .",
     "clean": "rm -rf dist"
   },
   "devDependencies": {
     "@eslint/js": "^9.16.0",
-    "@types/chai": "^5.0.1",
-    "@types/mocha": "^10.0.10",
-    "chai": "^5.1.2",
     "eslint": "^9.16.0",
     "eslint-config-prettier": "^9.1.0",
-    "eslint-plugin-mocha": "^10.5.0",
     "eslint-plugin-prettier": "^5.2.1",
+    "eslint-plugin-vitest": "^0.5.4",
     "globals": "^15.13.0",
-    "mocha": "^11.0.1",
     "prettier": "3.4.2",
-    "ts-node": "^10.9.2",
     "typescript": "^5.7.2",
-    "typescript-eslint": "^8.18.0"
+    "typescript-eslint": "^8.18.0",
+    "vitest": "^2.1.8"
   },
   "engines": {
-  "node": ">=10.0.0"
-},
+    "node": ">=10.0.0"
+  },
   "homepage": "https://github.com/andres-bonilla/file-constellation#readme",
   "repository": {
     "type": "git",

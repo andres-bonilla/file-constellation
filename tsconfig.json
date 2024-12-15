@@ -13,7 +13,7 @@
     "tsBuildInfoFile": "./dist/tsconfig.tsbuildinfo",
     "declarationMap": true,
     "baseUrl": ".",
-    "types": ["mocha", "chai"],
+    "types": ["vitest/importMeta"]
   },
   "include": ["src/**/*"],
   "exclude": ["node_modules", "dist", "tests"]
